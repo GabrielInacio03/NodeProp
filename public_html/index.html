@@ -1,0 +1,124 @@
+<!DOCTYPE hmtl>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Agência especializada em soluções digitais">
+		<meta name="Keywords" content="Agência Digital, Marketing, Solução Digital, Sites">
+		<meta name="robots" content="index, follow">
+		<meta name="author" content="Gabriel Inácio">
+		<title>NodeProp</title>
+
+		<!-- ICON -->
+		<link rel="stylesheet" href="img/icon.png">
+
+		<!-- FONT Awesome-->
+		<link rel="stylesheet" href="fontawesome-free-5.14.0-web/css/all.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+		<!-- Link CSS -->
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+		<header class="header">
+			<a href="index.html">
+				<h1 class="logo">NodeProp</h1>
+			</a>
+			<button class="btn-menu">
+				<i class="fa fa-bars fa-lg"></i>
+			</button>
+			<nav class="menu">
+				<a href="" class="btn-close">
+					<i class="fa fa-times"></i>
+				</a>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Cliente</a></li>
+					<li><a href="#">Serviços</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Quem Somos</a></li>
+					<li><a href="#">Contato</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="banner">
+			<div class="title">
+				<h2>Ouse Inovar</h2>
+				<p>Criamos experiências e estabelecemos ações estratégicas que conectam marcas e consumidores. </p>
+			</div>
+			<div class="buttons">
+				<button class="btn-cadastrar">
+					Cadastrar<i class="fa fa-arrow-circle-right"></i>
+				</button>
+				<button class="btn-sobre">
+					Sobre <i class="fa fa-question-circle"></i>
+				</button>
+			</div>
+		</div>
+		<main class="servicos">
+			<article class="servico">
+				<a href="#">
+					<img src="img/criacoes.jpg" alt="campanhas publicitárias">
+				</a>
+				<div class="inner">
+					<a href="#">Campanhas publicitárias</a>
+					<h4>Impressos, VTs e Jingles</h4>
+					<p>Se você está precisando de criação de algum material em específico, venha nos conhecer. Eles farão toda campanha publicitária. VT, outdoor, folder, anúncios, etc.</p>
+				</div>
+			</article>
+			<article class="servico">
+				<a href="#">
+					<img src="img/md.jpg" alt="campanhas publicitárias">
+				</a>
+				<div class="inner">
+					<a href="#">Marketing</a>
+					<h4>Administração de Redes Sociais</h4>
+					<p>Como agência de publicidade aplicamos estratégias nos meios digitais para que seu negócio seja visto por milhões de usuários. O Brasil é o 5º país mais conectado do mundo. Por este motivo o seu negócio não pode ficar fora do mercado digital.</p>
+				</div>
+			</article>
+			<article class="servico">
+				<a href="#">
+					<img src="img/cs.jpg" alt="campanhas publicitárias">
+				</a>
+				<div class="inner">
+					<a href="#">Criação de Sites</a>
+					<h4>Sites Administraveis</h4>
+					<p>Agora você pode administrar seu site como quiser. Além disso, a administração é mais ágil, fácil e rápida. Venha conhecer nosso serviço.</p>
+				</div>
+			</article>
+		</main>
+		<section class="news">
+			<h2>Inscreva-se Agora!</h2>
+			<h3>Receba novidades, dicas e muito mais</h3>
+			<form action="">
+				<input type="email" name="email" placeholder="Seu Email">
+				<button>Cadastrar</button>
+			</form>
+		</section>
+		<footer class="rodape">
+			<div class="social-icons">
+				<a href="#"><i class="fab fa-facebook"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-google"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+			</div>
+			<p>
+				Copyright &copy; NodeProp 2020. Todos os Direitos Reservados.
+			</p>
+		</footer>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(".btn-menu").click(function(){
+			  $(".menu").show();
+			});
+			$(".btn-close").click(function() {
+			  $(".menu").hide();
+			});
+
+			$(".fotodomenuz").click(function() {
+			  $(".menu").show();
+			});
+		</script>
+	</body>
+</html>
